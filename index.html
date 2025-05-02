@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site The Last of Us</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap">
     <link rel="stylesheet" href="style.css">
-
+    <script src="script.js" defer></script>
 </head>
 <body>
+    <video id="bg-video" autoplay muted loop playsinline>
+        <source src="tlouvid.mp4" type="video/mp4">
+    </video>
     <header>
         <div class="logo">
             <img src="vagalume logo.jfif" alt="Logo">
@@ -22,8 +26,8 @@
         </nav>
     </header>
     <section class="hero">
-        <h1>LUTE</h1>
-        <p>Entre neste Mundo apocaliptico e descubra os terrores que ele apresenta</p>
+        <h1>SOBREVIVA</h1>
+        <p>Entre neste Mundo apocaliptico e descubra os terrores que lhe aguarda.</p>
         <button>Assistir Trailer</button>
     </section>
     
@@ -38,7 +42,40 @@
         </div>
     </section>
 
-        <section class="inferior-section">
+    <section class="grid-section">
+        <div class="grid-container">
+            <div class="grid-item">
+                <img src="gif1.gif" alt="GIF 1">
+                <div class="gif-text-box">
+                    <span class="gif-title">RESISTÊNCIA</span>
+                    <span class="gif-desc">Supere desafios e enfrente hordas de infectados em ambientes hostis.</span>
+                </div>
+            </div>
+            <div class="grid-item">
+                <img src="gif2.gif" alt="GIF 2">
+                <div class="gif-text-box">
+                    <span class="gif-title">EXPLORAÇÃO</span>
+                    <span class="gif-desc">Descubra segredos, recursos e histórias ocultas em cada cenário.</span>
+                </div>
+            </div>
+            <div class="grid-item">
+                <img src="gif3.gif" alt="GIF 3">
+                <div class="gif-text-box">
+                    <span class="gif-title">CONEXÕES</span>
+                    <span class="gif-desc">Forme alianças e construa laços para sobreviver neste novo mundo.</span>
+                </div>
+            </div>
+            <div class="grid-item">
+                <img src="gif4.gif" alt="GIF 4">
+                <div class="gif-text-box">
+                    <span class="gif-title">EVOLUÇÃO</span>
+                    <span class="gif-desc">Adapte-se, evolua e torne-se a esperança da humanidade.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="inferior-section">
             <div class="inferior-wrapper">
                 <div class="inferior-img left">
                     <img src="dec2.jpg" alt="Decorativo Esquerda 1" class="decor-img" />
@@ -53,28 +90,18 @@
                 </div>
             </div>
         </section>
-        <footer>
-            <div class="footer-content">
-              <div class="footer-brand">
-                <img src="My mind.jpg" alt="Logo" />
-                <span>The Last of Us</span>
-              </div>
-              <nav class="footer-nav">
-                <a href="#">NEXUS</a>
-                <a href="#">VAULT</a>
-                <a href="#">SOBRE</a>
-                <a href="#">SERVIÇOS</a>
-                <a href="#">CONTATO</a>
-              </nav>
-              <div class="footer-social">
-                <a href="#" title="Twitter"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter" /></a>
-                <a href="#" title="Discord"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968756.png" alt="Discord" /></a>
-              </div>
+        <footer class="custom-footer">
+            <div class="footer-left">
+                <span>© Lucas 2025</span>
             </div>
-            <div class="footer-bottom">
-              <span>© 2025 Lucas Entertainment. Todos os direitos reservados.</span>
+            <div class="footer-center">
+                <a href="https://github.com/LucasShanti" title="GitHub" target="_blank"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" alt="GitHub" class="footer-icon" /></a>
+                <a href="https://www.linkedin.com/in/lucas-clelio-a682a5279/" title="LinkedIn" target="_blank"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" class="footer-icon" /></a>
             </div>
-          </footer>
+            <div class="footer-right">
+                <span><br><a href="#">Política de Privacidade</a></small></span>
+            </div>
+        </footer>
 </body>
 </html>
-  
+
