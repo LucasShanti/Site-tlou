@@ -258,3 +258,108 @@ header nav a:hover {
     margin-top: 20px;
 }
   
+/* Seção inferior personalizada */
+.inferior-section {
+    background: #000;
+    padding: 60px 0 30px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    min-height: 420px;
+}
+.inferior-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 40px;
+}
+.inferior-img.left, .inferior-img.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    min-width: 140px;
+}
+.inferior-img.right {
+    align-items: flex-end;
+}
+.decor-img {
+    width: 120px;
+    height: auto;
+    border-radius: 18px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.4);
+    background: #181818;
+}
+.inferior-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+    min-width: 260px;
+}
+.inferior-mini {
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    opacity: 0.7;
+}
+.inferior-titulo {
+    color: #f0db4f;
+    text-shadow: 0 0 10px rgba(240, 219, 79, 0.5);
+}
+.btn-contato {
+    background: transparent;
+    border: 2px solid #f0db4f;
+    color: #f0db4f;
+    padding: 10px 32px;
+    border-radius: 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background 0.2s, color 0.2s;
+    margin-top: 12px;
+    letter-spacing: 1px;
+}
+.btn-contato:hover {
+    background: #3fd0ff;
+    color: #000;
+}
+@media (max-width: 900px) {
+    .inferior-wrapper {
+        flex-direction: column;
+        gap: 24px;
+    }
+    .inferior-img.left, .inferior-img.right {
+        flex-direction: row;
+        min-width: unset;
+        gap: 16px;
+    }
+    .decor-img {
+        width: 80px;
+    }
+    .inferior-titulo {
+        font-size: 28px;
+    }
+}
+@media (max-width: 600px) {
+    .inferior-section {
+        padding: 32px 0 16px 0;
+        min-height: 260px;
+    }
+    .inferior-titulo {
+        font-size: 18px;
+    }
+    .btn-contato {
+        font-size: 14px;
+        padding: 8px 18px;
+    }
+}
+  
