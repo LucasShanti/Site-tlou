@@ -192,4 +192,69 @@ header nav a:hover {
     background-color: rgba(240, 219, 79, 0.2);
     border-color: #f0db4f;
 }
+
+/* Estilos para a nova seção de aventura */
+.aventura-section {
+    background-color: #000;
+    color: #fff;
+    padding: 80px 0;
+    text-align: center;
+    position: relative;
+}
+
+.aventura-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aventura-section h2 {
+    font-size: 42px;
+    font-weight: 900;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    color: #f0db4f;
+    text-shadow: 0 0 10px rgba(240, 219, 79, 0.5);
+    line-height: 1.2;
+}
+
+.aventura-image {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px 0 40px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 229, 255, 0.3);
+}
+
+.aventura-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.aventura-description {
+    font-size: 18px;
+    margin-bottom: 15px;
+    max-width: 600px;
+    line-height: 1.5;
+}
+
+.aventura-secondary {
+    font-size: 16px;
+    color: #aaa;
+    margin-bottom: 10px;
+    max-width: 600px;
+}
+
+.aventura-note {
+    font-size: 14px;
+    color: #666;
+    font-style: italic;
+    margin-top: 20px;
+}
   
