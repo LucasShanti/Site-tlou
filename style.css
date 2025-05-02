@@ -1,0 +1,195 @@
+footer {
+    background: #181818;
+    color: #fff;
+    padding-top: 32px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #222;
+    padding-bottom: 18px;
+  }
+  
+  .footer-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .footer-brand img {
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  }
+  
+  .footer-nav {
+    display: flex;
+    gap: 24px;
+  }
+  
+  .footer-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: color 0.2s;
+  }
+  
+  .footer-nav a:hover {
+    color: #f0db4f;
+  }
+  
+  .footer-social {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .footer-social img {
+    width: 26px;
+    height: 26px;
+    filter: brightness(0) invert(1);
+    transition: filter 0.2s;
+  }
+  
+  .footer-social img:hover {
+    filter: brightness(0) invert(0.7) sepia(1) hue-rotate(60deg) saturate(4);
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    color: #aaa;
+    font-size: 14px;
+    padding: 18px 0 8px 0;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: url('My mind.jpg'); /* imagem de melhor qualidade */
+    background-size: cover;       /* cobre toda a área da tela */
+    background-position: center;  /* centraliza a imagem */
+    background-attachment: fixed; /* mantém a imagem fixa durante a rolagem */
+    background-repeat: no-repeat; /* não repete a imagem */
+    min-height: 100vh;           /* altura mínima total da viewport */
+    width: 100%;                 /* largura total */
+    font-family: Arial, sans-serif;
+    color: white;
+    overflow-x: hidden;          /* evita barra de rolagem horizontal */
+    image-rendering: high-quality; /* melhora a qualidade de renderização */
+    position: relative;
+  }
+  
+  /* Adiciona um overlay escuro para melhorar o contraste com o texto */
+  body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); /* overlay escuro semi-transparente */
+    z-index: -1;
+  }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+header .logo button {
+    background: transparent;
+    color: #fff;
+    border: 1px solid #f0db4f;
+    border-radius: 20px;
+    padding: 8px 24px;
+    font-weight: bold;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+header nav {
+    display: flex;
+    gap: 20px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+header nav a:hover {
+    color: #f0db4f;
+}
+
+.hero {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+    color: white;
+    z-index: 1;
+}
+
+.hero h1 {
+    font-size: 72px;
+    font-weight: 900;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero p {
+    font-size: 18px;
+    margin: 16px 0 28px 0;
+    max-width: 400px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+.hero button {
+    background-color: transparent;
+    border: 1px solid #f0db4f;
+    color: #fff;
+    padding: 12px 28px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 22px;
+    width: 160px;
+    font-size: 16px;
+}
+
+.hero button:hover {
+    background-color: rgba(240, 219, 79, 0.2);
+    border-color: #f0db4f;
+}
+  
